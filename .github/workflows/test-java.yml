@@ -29,6 +29,10 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
+  
+    - name: Build with Gradle
+      uses: gradle/actions@v4.3.1
+          
 
     # - name: Setup Java JDK
     #   uses: actions/setup-java@v4.7.1
